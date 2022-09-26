@@ -1,0 +1,160 @@
+.user-details {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.input_field_users {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(251, 246, 242);
+}
+
+#ratings_div>td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.user-details>li {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#final-sign {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+    position: relative;
+    left: 5vw;
+
+}
+
+#main-heading {
+    width: 95vw;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-size: 2vw;
+    font-weight: 900;
+
+}
+
+#main-heading>span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#form-div {
+    width: 70%;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#values-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    position: relative;
+    left: 5vw;
+    padding-bottom: 50px;
+
+
+}
+
+#values-list>li {
+    text-align: center;
+    width: 10vw;
+    padding-bottom: 10px;
+    margin: 2px;
+
+
+}
+
+.mark-header {
+    width: 8vw;
+}
+
+#ratings_div>th {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+#assement-text-area {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 7vw;
+    padding-bottom: 30px;
+}
+
+#assement-text-area>label {
+    font-size: x-large;
+    font-weight: 900;
+    width: 90%;
+    text-align: center;
+}
+
+#assement-text-area>input {
+    height: 100px;
+    width: 100%;
+
+}
+
+#ratings_div>td {
+    height: 50px;
+}
+
+.values-heading-bold {
+    font-size: larger;
+    font-weight: 900;
+}
+
+#submit_button {
+    background-color: #ed3853;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    left: 45vw;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#submit_button:hover,
+#submit_button:focus {
+    background-color: #F082AC;
+}

@@ -1,0 +1,90 @@
+#line_chart {
+    width: 40vw;
+    height: 40vh;
+    padding: 50px;
+    position: relative;
+    left: 25vw;
+}
+
+#doughnut_chart {
+    position: relative;
+    width: 15vw;
+    height: 10vh;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#profile_div {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+    position: relative;
+    color: wheat;
+    left: 10vw;
+}
+
+.notifications_span {
+    padding: 30px;
+    width: 50vw;
+    border: 1px solid rgb(42, 41, 41);
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    font-weight: 700;
+    word-spacing: 2px;
+
+}
+
+#profile_comp {
+    background-color: rgb(201, 201, 214);
+}
+
+#notification_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#completion_chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+}
+
+#details_div {
+    background-color: black;
+    height: 40vh;
+}
+
+#user_details_header>p,
+#user_details_value>p {
+    padding: 3px;
+
+
+}
+
+#user_details_header,
+#user_details_value {
+    position: relative;
+    top: 8vh;
+}
+
+#profile_img {
+    width: 18vw;
+    height: auto;
+}
+
+#compare_chart {
+    position: relative;
+    left: 1vw;
+    width: 50vw;
+
+}
